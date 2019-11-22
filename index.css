@@ -1,0 +1,193 @@
+* {
+    width: 95%;
+    box-sizing: border-box;
+}
+
+body {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    justify-content: space-around;
+    background-color: rgb(61, 58, 58);
+
+}
+
+p {
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    border: transparent;
+    padding: 5px;
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+
+ol {
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 30px;
+    position: relative;
+    color: goldenrod;
+}
+
+li {
+    padding: 5px;
+    font-style: oblique;
+    font-size: 30px;
+    color: white;
+}
+
+h2 {
+    padding: 5px;
+    font-size: 30px;
+    font-style: oblique;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav>ul>li {
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+    display: inline;
+}
+
+nav>ul {
+    text-align: center;
+
+}
+
+nav>ul>li>a {
+    text-transform: uppercase;
+}
+
+nav {
+
+    position: fixed;
+    width: 100%;
+
+    background-color: pink;
+    padding-top: 0;
+}
+footer{
+    font-size: 25px;
+    border: 1px;
+    color: white;
+    justify-content: center;
+    background-color:;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.causes{
+    margin-left: 5%;
+}
+
+.causes ul{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.causes ul li{
+    height: 225px;
+    width: 225px;
+    list-style: none;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.causes img{
+    height: 210px;
+    width: 210px;
+
+} 
+
+.causes>div>img {
+    padding-left: 10px;
+}
+
+
+#first {
+    position: relative;
+    padding-bottom: 60px;
+    right: 20px;
+}
+
+#second {
+    position: relative;
+    right: 500px;
+}
+
+.solution {
+    display: flex;
+    flex-direction: unset;
+}
+
+.solutions>div>img {
+    padding: 20px;
+}
+
+.attribute {
+    width: 70%;
+    display: flex;
+    flex-direction: unset;
+    margin-left: 50px;
+    
+
+}
+
+.img1 {
+    padding-left: 40px;
+
+}
+ /* .column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  overflow: hidden;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}  */
+
+.attribute2 {
+    width: 90%;
+    margin-left:5%;
+}
+
+.attribute2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.attribute2 ul li{
+    width: 250px;
+    height: 250px;
+    list-style: none;
+    overflow: hidden;
+    object-fit: cover;
+}
+.attribute2 ul li img{
+    /* width: 220px;
+    height: 220px; */
+    overflow: hidden;
+}
+
+/* .forth {
+    width: 40%;
+} */
+
+@media screen and (max-width: 480px) {}
+
